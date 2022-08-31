@@ -6,57 +6,58 @@ import Link from '@docusaurus/Link';
 type FeatureItem = {
     title: string;
     path: string,
-    Svg: React.ComponentType<React.ComponentProps<'svg'>>;
     description: JSX.Element;
 };
 
 const FeatureList: FeatureItem[] = [
     {
-        title: '知识库',
-        path: '/docs',
-        Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+        title: '🏫 知识库',
+        path: '/docs/intro',
         description: (
             <>
-                Docusaurus was designed from the ground up to be easily installed and
-                used to get your website up and running quickly.
+                前后端学习笔记
             </>
         ),
     },
     {
-        title: 'Focus on What Matters',
+        title: '📝 博客',
         path: '/blog',
-        Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
         description: (
             <>
-                Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-                ahead and move your docs into the <code>docs</code> directory.
+                个人积累，杂谈
             </>
         ),
     },
     {
-        title: 'Powered by React',
-        path: '/docs',
-        Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+        title: '🥷 关于',
+        path: '/about',
         description: (
             <>
-                Extend or customize your website layout by reusing React. Docusaurus can
-                be extended while reusing the same header and footer.
+                ✌️Software Engineer✌️
             </>
         ),
     },
 ];
 
-function Feature({title, path, Svg, description}: FeatureItem) {
+function Feature({title, path, description}: FeatureItem) {
     return (
+        // <div className={clsx('col col--4')}>
         <Link to={path} className={clsx('col col--4')}>
-            <div className="text--center">
-                <Svg className={styles.featureSvg} role="img"/>
-            </div>
-            <div className="text--center padding-horiz--md">
-                <h3>{title}</h3>
-                <p>{description}</p>
+            <div className='card shadow--md' style={{height: '100%'}}>
+                <div className="card__header">
+                    <h3>{title}</h3>
+                </div>
+                <div className="card__body">
+                    <p>{description}</p>
+                </div>
+                {/*<div className="card__footer">*/}
+                {/*    <Link to={path} className="button button--primary button--block">*/}
+                {/*        GO ➡️*/}
+                {/*    </Link>*/}
+                {/*</div>*/}
             </div>
         </Link>
+        // </div>
     );
 }
 

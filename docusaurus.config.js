@@ -34,17 +34,9 @@ const config = {
             ({
                 docs: {
                     sidebarPath: require.resolve('./sidebars.js'),
-                    // Please change this to your repo.
-                    // Remove this to remove the "edit this page" links.
-                    editUrl:
-                        'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
                 },
                 blog: {
                     showReadingTime: true,
-                    // Please change this to your repo.
-                    // Remove this to remove the "edit this page" links.
-                    // editUrl:
-                    //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
                 },
                 theme: {
                     customCss: require.resolve('./src/css/custom.css'),
@@ -52,7 +44,18 @@ const config = {
             }),
         ],
     ],
-
+    // plugins: [
+    //     [
+    //         '@docusaurus/plugin-content-docs',
+    //         {
+    //             id: 'about',
+    //             path: 'about',
+    //             sidebarPath: require.resolve("./sidebars.js"),
+    //             showLastUpdateTime: true,
+    //             breadcrumbs: false,
+    //         }
+    //     ]
+    // ],
     themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
@@ -68,9 +71,14 @@ const config = {
                         type: 'doc',
                         docId: 'intro',
                         position: 'right',
-                        label: 'Tutorial',
+                        label: '知识库',
                     },
-                    {to: '/blog', label: 'Blog', position: 'right'},
+                    {to: '/blog', label: '博客', position: 'right'},
+                    {
+                        to: '/about',
+                        label: '关于',
+                        position: 'right',
+                    },
                     {
                         href: 'https://github.com/facebook/docusaurus',
                         label: 'GitHub',
@@ -121,7 +129,7 @@ const config = {
                 //         ],
                 //     },
                 // ],
-                copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+                copyright: `Copyright © ${new Date().getFullYear()} Howie's Blog, Inc. Built with Docusaurus.`,
             },
             prism: {
                 theme: lightCodeTheme,
