@@ -9,7 +9,6 @@ import styles from './index.module.css';
 function HomepageHeader() {
     const {siteConfig} = useDocusaurusContext();
     let logo = siteConfig.themeConfig.logo;
-    console.log(logo)
     return (
         <header className={clsx('hero hero--primary', styles.heroBanner)}>
             <div className="container">
