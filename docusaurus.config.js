@@ -129,7 +129,8 @@ const config = {
                 //         ],
                 //     },
                 // ],
-                copyright: `Copyright © ${new Date().getFullYear()} Howie's Blog, Built with Docusaurus.`,
+                copyright: `Copyright © ${new Date().getFullYear()} Howie's Blog, Built with Docusaurus. <br/> <a href="https://beian.miit.gov.cn/">
+苏ICP备2022036750号</a>`,
             },
             prism: {
                 theme: lightCodeTheme,
