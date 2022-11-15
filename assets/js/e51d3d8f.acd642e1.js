@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhowie_blog=self.webpackChunkhowie_blog||[]).push([[5542],{1903:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/gitlab-ci","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
