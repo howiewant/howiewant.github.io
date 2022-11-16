@@ -5,6 +5,9 @@ tags: ['spring-boot','gitlab-ci']
 ---
 ## 🚀 Gitlab FLow
 ![GitlabFLow](https://picbed.howiewant.top/GitlabFLow.png)
+
+
+<!-- truncate -->
 ## 👣 Step
 ### 提交代码到MASTER分支
   - 触发check job, 使用sonar进行代码的质量检查
