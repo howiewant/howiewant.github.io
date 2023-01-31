@@ -1,0 +1,8 @@
+{
+  "label": "MQ",
+  "link": {
+    "type": "generated-index",
+    "description": "message queue"
+  }
+}
+
