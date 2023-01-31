@@ -2,11 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://your-docusaurus-test-site.com/blog</id>
     <title>Howie's Blog Blog</title>
-    <updated>2022-11-11T00:00:00.000Z</updated>
+    <updated>2023-01-31T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://your-docusaurus-test-site.com/blog"/>
     <subtitle>Howie's Blog Blog</subtitle>
     <icon>https://your-docusaurus-test-site.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[postgresql与mysql对比]]></title>
+        <id>postgresql-vs-mysql</id>
+        <link href="https://your-docusaurus-test-site.com/blog/postgresql-vs-mysql"/>
+        <updated>2023-01-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[相同点]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="相同点">相同点<a class="hash-link" href="#相同点" title="标题的直接链接">​</a></h2><ul><li>关系型数据库管理系统(RDBMS)</li><li>SQL查询语言</li><li>JSON支持</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="不同点">不同点<a class="hash-link" href="#不同点" title="标题的直接链接">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="postgresql">postgresql<a class="hash-link" href="#postgresql" title="标题的直接链接">​</a></h3><ul><li>对象关系型数据库</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="mysql">mysql<a class="hash-link" href="#mysql" title="标题的直接链接">​</a></h3><ul><li>安全 SSL</li><li>高性能 (索引，全文索引，内存缓存)</li><li>扩展性 支持无限增长</li><li>事务</li></ul>]]></content>
+        <category label="postgresql" term="postgresql"/>
+        <category label="mysql" term="mysql"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[SpringBoot GitlabCI流水线设置]]></title>
         <id>spring-boot-project-gitlabci</id>
