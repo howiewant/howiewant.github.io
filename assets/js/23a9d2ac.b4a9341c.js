@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhowie_blog=self.webpackChunkhowie_blog||[]).push([[77],{6360:e=>{e.exports=JSON.parse('{"title":"Nginx","slug":"/category/nginx","permalink":"/docs/category/nginx","navigation":{"previous":{"title":"netty","permalink":"/docs/netty"},"next":{"title":"Nginx autoindex \u6a21\u5757","permalink":"/docs/nginx/ngx_http_autoindex_module"}}}')}}]);
