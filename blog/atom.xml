@@ -2,11 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://your-docusaurus-test-site.com/blog</id>
     <title>Howie's Blog Blog</title>
-    <updated>2023-02-10T00:00:00.000Z</updated>
+    <updated>2023-02-20T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://your-docusaurus-test-site.com/blog"/>
     <subtitle>Howie's Blog Blog</subtitle>
     <icon>https://your-docusaurus-test-site.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[jdk8之后的HashMap不同点比较]]></title>
+        <id>hashmap-difference-after-jdk8</id>
+        <link href="https://your-docusaurus-test-site.com/blog/hashmap-difference-after-jdk8"/>
+        <updated>2023-02-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[数据结构]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="数据结构">数据结构<a class="hash-link" href="#数据结构" title="标题的直接链接">​</a></h2><ul><li>1.8之前 数组加链表
+<img loading="lazy" src="https://picbed.howiewant.top/202302201734582.png" alt="1.7hashmap" class="img_ev3q"></li><li>1.8之后 数组加链表加红黑树
+<img loading="lazy" src="https://picbed.howiewant.top/202302201733251.png" alt="1.8hashmap" class="img_ev3q"></li></ul>]]></content>
+        <category label="java" term="java"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[使用nginx代理geoserver通过https访问]]></title>
         <id>use-nginx-proxy-geoserver-with-https</id>
