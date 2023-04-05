@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkhowie_blog=self.webpackChunkhowie_blog||[]).push([[911],{287:a=>{a.exports=JSON.parse('{"title":"Java","slug":"/category/java","permalink":"/docs/category/java","navigation":{"previous":{"title":"Translate your site","permalink":"/docs/tutorial-extras/translate-your-site"},"next":{"title":"Java8","permalink":"/docs/java/java 8"}}}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhowie_blog=self.webpackChunkhowie_blog||[]).push([[3111],{253:e=>{e.exports=JSON.parse('{"title":"PostgreSQL","slug":"/category/postgresql","permalink":"/docs/category/postgresql","navigation":{"previous":{"title":"Mybatis","permalink":"/docs/java/mybatis"},"next":{"title":"index","permalink":"/docs/postgresql/"}}}')}}]);
