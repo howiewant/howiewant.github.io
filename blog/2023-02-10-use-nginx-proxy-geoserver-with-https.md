@@ -5,7 +5,7 @@ tags: ['geoserver', 'nginx']
 ---
 
 ## Nginx 配置
-```
+```nginx
 server {
     listen 443 ssl;
     server_name localhost;
@@ -29,7 +29,7 @@ server {
 nginx添加的X-Forwarded系列请求头，还需要geoserver服务器支持
 ### Tomcat服务器
 server.xml 
-```
+```xml
 <service>
     <Engine>
         <Host>
@@ -41,7 +41,7 @@ server.xml
 ```
 ### Jetty服务器
 jetty.xml
-```
+```xml
 <New id="httpConfig" class="org.eclipse.jetty.server.HttpConfiguration">
     <Call name="addCustomizer">
         <Arg><New class="org.eclipse.jetty.server.ForwardedRequestCustomizer"/></Arg>

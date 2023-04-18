@@ -77,7 +77,7 @@ pre-production-deploy-job:
 - 类同Pre Production所执行的job，仅变量有些许不同
 
 ## 😄 Complete Code 
-```.yaml
+```yaml
 stages:
   - check
   - build

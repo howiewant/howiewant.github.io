@@ -27,6 +27,12 @@ const config = {
         locales: ['zh-Hans'],
     },
 
+    markdown: {
+        mermaid: true
+    },
+
+    themes: ['@docusaurus/theme-mermaid'],
+
     presets: [
         [
             'classic',
@@ -135,6 +141,7 @@ const config = {
             prism: {
                 theme: lightCodeTheme,
                 darkTheme: darkCodeTheme,
+                additionalLanguages: ['java', 'powershell','nginx']
             },
             // algolia: {
             //     // The application ID provided by Algolia
